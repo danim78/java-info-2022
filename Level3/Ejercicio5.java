@@ -8,13 +8,13 @@ public class Ejercicio5 {
     public static void main(String[] args) {
         List<Alumno> alumnos = List.of(
             new Alumno("Simpson", "Homero", "1960-04-11"),
-            new Alumno("Bonneto", "Jorge", "1960-04-11"),
-            new Alumno("Del Alamo", "Gonzalo", "1960-04-11"),
-            new Alumno("Rometto", "Walter", "1960-04-11"),
-            new Alumno("Michel", "Nelson", "1960-04-11")
+            new Alumno("Bonneto", "Jorge", "1984-08-01"),
+            new Alumno("Del Alamo", "Gonzalo", "1982-03-01"),
+            new Alumno("Rometto", "Walter", "1964-07-07"),
+            new Alumno("Michel", "Nelson", "1982-05-22")
             );
 
-        Map<String, Integer> alumnoEdad = new HashMap<>();
+        Map<String, Integer> alumnoEdad =  new HashMap<>();
         
         alumno_Edad(alumnos, alumnoEdad);
 
